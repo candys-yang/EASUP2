@@ -1,0 +1,18 @@
+[dealer]
+dealer_update_time_start = 0
+dealer_update_time_stop = 8
+
+
+[setting]
+report_exceptions = 1
+heartbeat = 0
+
+
+
+#
+#    dealer 下的配置项为从集团端拉取更新的时间，从几时到几时，24小时制
+#
+#    setting 下的配置项是关于应用报告的，第一项意为向集团端报告异常，第二项为心跳监测（可由集团端获取店端程序是否在线）
+#
+#    本文件的所有配置项均可在 conf.py 中设置，如果你打算在这里修改，那么它将会是临时的，因为集团端每次重启动这个文件都会被刷新。
+#

@@ -1,0 +1,11 @@
+[dealer]
+dealer_update_time_start = 0
+dealer_update_time_stop = 8
+
+
+[setting]
+report_exceptions = 1
+heartbeat = 0
+
+#dealer 中定义了店端的更新策略（文件同步的实施时间）
+#setting 的功能我会在 EASUP2.1或更高的版本再更新，这里待定。
